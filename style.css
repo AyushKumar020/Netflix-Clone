@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Playpen+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    color:white;
+    background-color: black;
+}
+.main{
+    background-image: url(imgbg.jpg);
+    height:80vh;
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    position: relative;
+    background-repeat: no-repeat;
+    filter: brightness(180%);
+    
+}
+.box{
+    height:100%;
+    width:100%;
+    background-color: black;
+    opacity: 0.75;
+    position: absolute;
+    top:0;
+}
+.logo img {
+    position: relative;
+    height:25px;
+    z-index: 10;
+    color: red;
+}
+nav{
+    display:flex;
+    /* background-color: red; */
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: space-between;
+    height:53px;
+    padding:7px 0px 0px 0px;
+}
+.text{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:41px;
+    font-family: 'Martel Sans', sans-serif;
+    line-height: 2px;
+   
+}
+.text1{
+    font-size: 34px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing:0px;
+    z-index: 10;
+
+}
+.text2{
+    font-size:17px;
+    font-weight: 300;
+    z-index: 10;
+}
+.text3{
+    font-weight: 200;
+    z-index: 10;
+   
+}
+.buttonbelow input{
+    position: relative;
+    padding: 15px;
+    width:250px;
+    z-index: 10;
+    border:1px solid white;
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+   
+    
+   
+}
+.buttonbelow button{
+    position: relative;
+    padding: 15px;
+    width:150px;
+    z-index: 10;
+    border:none;
+    background-color: red;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor:pointer
+    
+}
+#language{
+    position: relative;
+  padding: 5px 18px 5px 5px ;
+  margin: 3px;
+  z-index: 10;
+  background-color: black;
+  font-size: small;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+#signin{
+    position: relative;
+padding: 5px;
+margin: 3px;
+z-index:10;
+background-color: red;
+font-size: small;
+border:none;
+border-radius: 5px;
+cursor: pointer;
+}
+.line{
+    height:6px;
+    width:100%;
+    background-color: rgb(62, 62, 62);
+    position: relative;
+    z-index: 10;
+}
+.secondbox{
+ height:70vh;
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ 
+}
+.secondimg img{
+   
+}
+.secondtext{
+    font-family: 'Martel Sans', sans-serif;
+
+}
+.firstline{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.secondvideo video{
+    position:absolute;
+    right:234px;
+    bottom:-195px;
+   
+
+}
+.thirdbox{
+    height:70vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.thirdvideo{
+    border:3px solid gray;
+    width:250px;
+    height:60px;
+    border-radius: 5px;
+    position:absolute;
+    z-index:10;
+    left:271px;
+    bottom: -720px;
+    padding: 8px;
+    display: flex;
+    align-items:center;
+}
+.threefirstline{
+    font-family: 'Martel Sans', sans-serif;
+    font-size:30px;
+    font-weight: 900;
+    /* text-shadow:2px 0px white;
+    letter-spacing: 2px; */
+    
+}
+.threesecondline{
+font-size: 30px;
+font-family: 'Martel Sans', sans-serif;
+font-weight: 900;
+}
+.threethirdline{    
+font-size: 20px;
+}
+.threefourthline{
+font-size: 20px;
+}
+.fourthbox{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourthtext{
+    font-family:'Martel Sans', sans-serif ;
+
+}
+
+
+.fifthbox{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fifthtext{
+    font-family: 'Martel Sans', sans-serif;
+}
+.sixthbox{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Martel Sans', sans-serif;
+    padding: 20px;
+
+}
+.sixthboxdiv{
+    width:80%;
+    height:30px;
+    background-color:rgb(62, 62, 62);
+    margin: 6px;
+    padding: 15px;
+    cursor: pointer;
+   
+}
+.insidetext{
+    display: none;
+    background-color:rgb(62, 62, 62) ;
+}
+.sixthboxdiv:hover{
+    height: fit-content;
+
+}
+.sixthboxdiv:hover .insidetext{
+    display:inline-block;
+}
